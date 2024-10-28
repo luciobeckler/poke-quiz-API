@@ -8,6 +8,7 @@ API em C# com .NET para servir uma aplicação de Quiz, utilizando SQL Server co
 - [Requisitos](#requisitos)
 - [Configuração](#configuração)
 - [Estrutura do Projeto](#estrutura-do-projeto)
+- [End-points](#end-points)
 ---
 
 ## Introdução
@@ -55,13 +56,16 @@ dotnet ef database update
 ### Passo 3: Rodar o Projeto
 ```bash
 dotnet run
+```
 
-##Estrutura do projeto:
+## Estrutura do projeto:
 - Controllers: Contém os controladores da API, que definem os endpoints.
 - Models: Define as entidades do banco de dados.
 - Migrations: Gerencia a configuração do banco de dados e migrations.
 - Services: Contém a lógica de negócios (Será implementado no futuro).
 - appsettings.json: Arquivo de configuração, incluindo string de conexão.
 
+## End-points
+![image](https://github.com/user-attachments/assets/8b0c9823-17ee-4d56-88f1-2359f66c3d1b)
 
 
