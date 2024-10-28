@@ -12,7 +12,7 @@ API em C# com .NET para servir uma aplicação de Quiz, utilizando SQL Server co
 
 ## Introdução
 
-Esta API foi desenvolvida com .NET para facilitar servir a aplicação front-end React que uti presente neste link que . A API fornece endpoints para operações CRUD (Create, Read, Update, Delete) com um banco de dados SQL Server.
+Esta API foi desenvolvida com .NET para servir a aplicação front-end React que implementa a interface de quiz presente neste [link](https://github.com/luciobeckler/poke-quiz-app). A API fornece endpoints para operações CRUD (Create, Read, Update, Delete) com um banco de dados SQL Server.
 
 ### Tecnologias Utilizadas
 
@@ -22,16 +22,16 @@ Esta API foi desenvolvida com .NET para facilitar servir a aplicação front-end
 
 ## Requisitos
 
-- **SDK .NET**: [link para instalação, como https://dotnet.microsoft.com/download]
-- **SQL Server**: [link para download, como https://www.microsoft.com/sql-server]
-- **Ferramenta de Gerenciamento SQL** (ex: SQL Server Management Studio)
+- **SDK .NET**: [link para instalação](https://dotnet.microsoft.com/download)
+- **SQL Server**: [link para download](https://www.microsoft.com/sql-server)
+- **Ferramenta de Gerenciamento SQL**: [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)
 
 ## Configuração
 ### Passo 1: Clonar o Repositório
 
 ```bash
-git clone https://github.com/seuusuario/nome-do-repositorio.git
-cd nome-do-repositorio
+git clone https://github.com/luciobeckler/poke-quiz-api.git
+cd poke-quiz-api
 ```
 
 ### Passo 2: Configurar o Banco de Dados
