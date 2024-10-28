@@ -8,7 +8,7 @@ Aplicação front-end em React para um Quiz, utilizando React Router, Axios e Ma
 - [Requisitos](#requisitos)
 - [Configuração](#configuração)
 - [Estrutura do Projeto](#estrutura-do-projeto)
-- [End-points](#end-points)
+- [Telas do projeto](#telas-do-projeto)
 
 ---
 
@@ -57,3 +57,21 @@ A aplicação estará disponível em http://localhost:3000.
   - helper: funções globais utilziadas na aplicação
   - App.js: Componente principal que define as rotas da aplicação.
   - index.js: Ponto de entrada da aplicação.
+
+## Telas do projeto
+### Login:
+![image](https://github.com/user-attachments/assets/2b408779-6d26-412a-970d-dbf3ba0aac1f)
+![image](https://github.com/user-attachments/assets/b09387d1-24aa-4c36-9138-b0dffcb83f9f)
+
+### Quiz:
+![image](https://github.com/user-attachments/assets/fc02170c-12d0-4421-9b0d-3b9278152d80)
+
+### Result:
+![image](https://github.com/user-attachments/assets/73ecdc8e-9ceb-48ff-a701-036da1c71576)
+![image](https://github.com/user-attachments/assets/e235a686-d2b6-48d1-8344-0748b115f35e)
+
+
+
+
+
+
