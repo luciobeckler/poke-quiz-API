@@ -30,9 +30,30 @@ Esta aplicação front-end foi desenvolvida com React para interagir com a API d
 - **Editor de Código**: Recomendado [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Configuração
-
 ### Passo 1: Clonar o Repositório
 
 ```bash
-git clone https://github.com/luciobeckler/poke-quiz-frontend.git
-cd poke-quiz-frontend
+git clone https://github.com/luciobeckler/poke-quiz-app.git
+cd poke-quiz-app
+```
+
+### Passo 2: Instalar Dependências
+```bash
+npm install
+```
+
+### Passo 3: Rodar a Aplicação
+```bash
+npm start
+```
+A aplicação estará disponível em http://localhost:3000.
+
+## Estrutura do Projeto
+- src: Contém todos os componentes da aplicação.
+  - components: Componentes reutilizáveis da interface (será implementado uma melhor modularização dos componentes e páginas).
+  - pages: Páginas da aplicação (será implementado uma melhor modularização dos componentes e páginas).
+  - services: Arquivo para interações com a API usando Axios.
+  - hooks: Hooks globais utilziados na aplicação
+  - helper: funções globais utilziadas na aplicação
+  - App.js: Componente principal que define as rotas da aplicação.
+  - index.js: Ponto de entrada da aplicação.
