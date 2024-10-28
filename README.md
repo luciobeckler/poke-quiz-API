@@ -12,13 +12,13 @@ API em C# com .NET para servir uma aplicação de Quiz, utilizando SQL Server co
 
 ## Introdução
 
-Esta API foi desenvolvida com .NET para facilitar [função da API, como "a gestão de tarefas entre equipes"]. A API fornece endpoints para operações CRUD (Create, Read, Update, Delete) com um banco de dados SQL Server.
+Esta API foi desenvolvida com .NET para facilitar servir a aplicação front-end React que uti presente neste link que . A API fornece endpoints para operações CRUD (Create, Read, Update, Delete) com um banco de dados SQL Server.
 
 ### Tecnologias Utilizadas
 
 - C# com .NET (especifique a versão, ex. `.NET 6`)
 - SQL Server
-- [Outras bibliotecas específicas usadas, como `Entity Framework`, `Dapper`, `Swagger`]
+- Entity Framework, Swagger
 
 ## Requisitos
 
