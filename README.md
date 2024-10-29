@@ -1,77 +1,65 @@
-# PokeQuiz.APP
+# PokeQuiz.API
 
-Aplicação front-end em React para um Quiz, utilizando React Router, Axios e Material UI.
+API em C# com .NET para servir uma aplicação de Quiz, utilizando SQL Server como banco de dados.
 
 ## Índice
 
-- [Introdução](#introdução)
-- [Requisitos](#requisitos)
+@@ -9,63 +9,30 @@ API em C# com .NET para servir uma aplicação de Quiz, utilizando SQL Server co
 - [Configuração](#configuração)
 - [Estrutura do Projeto](#estrutura-do-projeto)
-- [Telas do projeto](#telas-do-projeto)
-
+- [End-points](#end-points)
 ---
 
 ## Introdução
 
-Esta aplicação front-end foi desenvolvida com React para interagir com a API de Quiz disponível [neste link](https://github.com/luciobeckler/poke-quiz-api). A aplicação permite aos usuários participar de quizzes, visualizar perguntas e enviar suas respostas, utilizando Axios para chamadas à API e Material UI para a interface.
+Esta API foi desenvolvida com .NET para servir a aplicação front-end React que implementa a interface de quiz presente neste [link](https://github.com/luciobeckler/poke-quiz-app). A API fornece endpoints para operações CRUD (Create, Read, Update, Delete) com um banco de dados SQL Server.
 
 ### Tecnologias Utilizadas
 
-- React v18.3.1
-- React Router v6.27 
-- Axios v1.7.7
-- Material UI v6.1.4
+- C# com .NET (especifique a versão, ex. `.NET 6`)
+- SQL Server
+- Entity Framework, Swagger
 
 ## Requisitos
 
-- **Node.js**: [link para instalação](https://nodejs.org/en/)
-- **npm**: O gerenciador de pacotes do Node (já incluído com o Node.js)
-- **Editor de Código**: Recomendado [Visual Studio Code](https://code.visualstudio.com/)
+- **SDK .NET**: [link para instalação](https://dotnet.microsoft.com/download)
+- **SQL Server**: [link para download](https://www.microsoft.com/sql-server)
+- **Ferramenta de Gerenciamento SQL**: [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)
 
 ## Configuração
 ### Passo 1: Clonar o Repositório
-
 ```bash
-git clone https://github.com/luciobeckler/poke-quiz-app.git
-cd poke-quiz-app
+git clone https://github.com/luciobeckler/poke-quiz-api.git
+cd poke-quiz-api
 ```
 
-### Passo 2: Instalar Dependências
+### Passo 2: Configurar o Banco de Dados
+- Crie um banco de dados no SQL Server. Exemplo:
 ```bash
-npm install
+CREATE DATABASE NomeDoBanco;
+```
+- Atualize a string de conexão para apontar para o banco de dados SQL Server. Em appsettings.json:
+```bash
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=SEU_SERVIDOR;Database=NomeDoBanco;User Id=SEU_USUARIO;Password=SUA_SENHA;"
+  }
+}
+```
+- Execute as migrations, se aplicável, para criar as tabelas necessárias:
+```bash
+dotnet ef database update
 ```
 
-### Passo 3: Rodar a Aplicação
+### Passo 3: Rodar o Projeto
 ```bash
-npm start
+dotnet run
 ```
-A aplicação estará disponível em http://localhost:3000.
-
-## Estrutura do Projeto
-- src: Contém todos os componentes da aplicação.
-  - components: Componentes reutilizáveis da interface (será implementado uma melhor modularização dos componentes e páginas).
-  - pages: Páginas da aplicação (será implementado uma melhor modularização dos componentes e páginas).
-  - services: Arquivo para interações com a API usando Axios.
-  - hooks: Hooks globais utilziados na aplicação
-  - helper: funções globais utilziadas na aplicação
-  - App.js: Componente principal que define as rotas da aplicação.
-  - index.js: Ponto de entrada da aplicação.
-
-## Telas do projeto
-### Login:
-![image](https://github.com/user-attachments/assets/2b408779-6d26-412a-970d-dbf3ba0aac1f)
-![image](https://github.com/user-attachments/assets/b09387d1-24aa-4c36-9138-b0dffcb83f9f)
-
-### Quiz:
-![image](https://github.com/user-attachments/assets/fc02170c-12d0-4421-9b0d-3b9278152d80)
-
-### Result:
-![image](https://github.com/user-attachments/assets/73ecdc8e-9ceb-48ff-a701-036da1c71576)
-![image](https://github.com/user-attachments/assets/e235a686-d2b6-48d1-8344-0748b115f35e)
-
-
-
-
-
-
+## Estrutura do projeto:
+- Controllers: Contém os controladores da API, que definem os endpoints.
+- Models: Define as entidades do banco de dados.
+- Migrations: Gerencia a configuração do banco de dados e migrations.
+- Services: Contém a lógica de negócios (Será implementado no futuro).
+- appsettings.json: Arquivo de configuração, incluindo string de conexão.
+## End-points
+![image](https://github.com/user-attachments/assets/8b0c9823-17ee-4d56-88f1-2359f66c3d1b)
