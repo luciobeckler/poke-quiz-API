@@ -4,7 +4,7 @@ API em C# com .NET para servir uma aplicação de Quiz, utilizando SQL Server co
 
 ## Índice
 
-@@ -9,63 +9,30 @@ API em C# com .NET para servir uma aplicação de Quiz, utilizando SQL Server co
+API em C# com .NET para servir uma aplicação de Quiz, utilizando SQL Server co
 - [Configuração](#configuração)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [End-points](#end-points)
