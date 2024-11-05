@@ -16,7 +16,7 @@ Esta API foi desenvolvida com .NET para servir a aplicação front-end React que
 
 ### Tecnologias Utilizadas
 
-- C# com .NET (especifique a versão, ex. `.NET 6`)
+- C# com .NET 8.0.10
 - SQL Server
 - Entity Framework, Swagger
 
