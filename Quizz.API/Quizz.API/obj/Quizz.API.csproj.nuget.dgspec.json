@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucio\\OneDrive\\Área de Trabalho\\Estudos\\Csharp\\quizz-aplication\\Quizz.API\\Quizz.API\\Quizz.API.csproj": {}
+    "C:\\Users\\lucio\\Documents\\Estudo\\Projetos\\PokeQuiz\\poke-quiz-api\\Quizz.API\\Quizz.API\\Quizz.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucio\\OneDrive\\Área de Trabalho\\Estudos\\Csharp\\quizz-aplication\\Quizz.API\\Quizz.API\\Quizz.API.csproj": {
+    "C:\\Users\\lucio\\Documents\\Estudo\\Projetos\\PokeQuiz\\poke-quiz-api\\Quizz.API\\Quizz.API\\Quizz.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucio\\OneDrive\\Área de Trabalho\\Estudos\\Csharp\\quizz-aplication\\Quizz.API\\Quizz.API\\Quizz.API.csproj",
+        "projectUniqueName": "C:\\Users\\lucio\\Documents\\Estudo\\Projetos\\PokeQuiz\\poke-quiz-api\\Quizz.API\\Quizz.API\\Quizz.API.csproj",
         "projectName": "Quizz.API",
-        "projectPath": "C:\\Users\\lucio\\OneDrive\\Área de Trabalho\\Estudos\\Csharp\\quizz-aplication\\Quizz.API\\Quizz.API\\Quizz.API.csproj",
+        "projectPath": "C:\\Users\\lucio\\Documents\\Estudo\\Projetos\\PokeQuiz\\poke-quiz-api\\Quizz.API\\Quizz.API\\Quizz.API.csproj",
         "packagesPath": "C:\\Users\\lucio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucio\\OneDrive\\Área de Trabalho\\Estudos\\Csharp\\quizz-aplication\\Quizz.API\\Quizz.API\\obj\\",
+        "outputPath": "C:\\Users\\lucio\\Documents\\Estudo\\Projetos\\PokeQuiz\\poke-quiz-api\\Quizz.API\\Quizz.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -92,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
