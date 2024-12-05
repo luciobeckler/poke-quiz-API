@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sE/WnoPVWtY=",
+  "dgSpecHash": "QtPxJkyFZEs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucio\\OneDrive\\Área de Trabalho\\quizz-aplication\\Quizz.API\\Quizz.API\\Quizz.API.csproj",
+  "projectFilePath": "C:\\Users\\lucio\\OneDrive\\Área de Trabalho\\Estudos\\Csharp\\quizz-aplication\\Quizz.API\\Quizz.API\\Quizz.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucio\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\lucio\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
